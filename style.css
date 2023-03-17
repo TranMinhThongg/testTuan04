@@ -1,0 +1,37 @@
+.main {
+    display: grid;
+    grid-template-columns: 110px 910px 420px;
+    padding: 15px;
+}
+
+.left-container {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
